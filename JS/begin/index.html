@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+</head>
+<header>
+    <h2>Number Guesser</h2>
+</header>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        height: 100px;
+        background-color: darkslategray;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main {
+        padding: 10px;
+    }
+    #match{
+         display: block;
+    }
+</style>
+<body>
+    <div class="main">
+        <label for="text">Enter number from 1 to 10</label>
+        <input id="guess" type="text">
+        <input id="btn" type="button" value="check guess">
+        <label id="match" for="">your guess is correct</label>
+        <label id="not-match">your guess is not correct</label>
+    </div>
+</body>
+<script src="exercise.js"></script>
+</html>

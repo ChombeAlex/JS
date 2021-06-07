@@ -1,0 +1,22 @@
+[
+{
+    "id":1,
+    "name": "tekleab",
+    "company":"hello world",
+    "phone":"0986205486"
+},
+
+{
+    "id":2,
+    "name": "Alemayehu",
+    "company":"papyrus",
+    "phone":"0986205486"
+},
+
+{
+    "id":3,
+    "name": "Roman",
+    "company":"great agriculture",
+    "phone":"0986205486"
+}
+]
